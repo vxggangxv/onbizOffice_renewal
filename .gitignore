@@ -1,3 +1,7 @@
+#json 파일, zip파일
+*.json
+*.zip
+
 # Windows image file caches
 Thumbs.db
 ehthumbs.db
