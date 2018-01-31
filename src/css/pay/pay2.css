@@ -30,10 +30,10 @@
 #main {border-bottom: 1px solid #ccc; padding: 20px 0px;}
 
 /*콘텐츠*/
-#contents {position: relative; width: 980px; margin: 0 auto; color: #333;}
-#contents > section {position: relative; width: 664px; left: -158px; margin: 0 auto; color: #333;}
-#contents > section > h3 {font-size: 18px; padding: 16px 0px 12px;}
-#contents > section:first-child > h3 {padding: 12px 0px 12px;}
+#contents, .contents {position: relative; width: 980px; margin: 0 auto; color: #333;}
+#contents > section, .contents > section, .contents > form > section {position: relative; width: 664px; left: -158px; margin: 0 auto 15px; color: #333;}
+#contents > section > h3, .contents > section > h3, .contents > form > section > h3 {font-size: 18px; padding: 16px 0px 12px;}
+#contents > section:first-child > h3, .contents > section:first-child > h3, .contents > form > section:first-child > h3 {padding: 12px 0px 12px;}
 
 
 /*임대상품 선택 영역*/
@@ -71,8 +71,7 @@
 .term .t_table li.on .table.d-nth-4 {font-weight: 600;}
 .term .t_table li.on .table.d-nth-1 .t_cell {width: 126.8px;}
 .term .t_table li.li-nth-1.on .table.d-nth-1 .t_cell {width: 125.8px;}
-input[type="radio"].t_radio + span + label {position: relative; cursor: pointer; top: -6px; margin-right: 30px; line-height: 3.3em; }
-input[type="radio"].t_radio + span + label { line-height: 3.1em; }
+input[type="radio"].t_radio + span + label {position: relative; cursor: pointer; top: -6px; margin-right: 30px; line-height: 3.3em;}
 input[type="radio"].t_radio + span {
 	display: inline-block; cursor: pointer;  
 	margin-left: -5px; margin-right: 3px;
@@ -82,6 +81,47 @@ input[type="radio"].t_radio + span {
 input[type="radio"].t_radio + span.on {
 	background: url("http://img.onbiz.co.kr/onb_picto.png") no-repeat center -118px;
 }
+
+/*임대상품 선택 영역 타입2*/
+#contents > section.term.type-2, .contents > section.term.type-2 {position: relative; width: 676px; left: -152px; margin: 0 auto; color: #333;}
+/*.term.type-2 h3 span {position: relative; top: 10px;font-size: 13px; float: right; color: #444; font-weight: 400;}*/
+.term.type-2 .t_n ul {font-size:20px; font-weight: 600; width:156.8px; height:240px; border:1px solid #ccc; line-height: 230px; float:left;}
+.term.type-2 .t_n ul li {border-right:none; text-align:center;}
+.term.type-2 .t_table {position: relative; width: 100%;}
+.term.type-2 .t_table li {float: left; width: 172.8px; height: 240px; border: 1px solid #ccc; box-sizing: border-box; border-left: none; cursor: pointer;}
+/*.term.type-2 .t_table li.li-nth-2 .table.d-nth-1, .term.type-2 .t_table li.li-nth-3 .table.d-nth-1 .t_cell, .term.type-2 .t_table li.li-nth-4 .table.d-nth-1 .t_cell {width: 131.8px;}*/
+
+.term.type-2 .t_table li .table.d-nth-1 .t_cell {width: 171.8px;}
+.term.type-2 .t_table li.li-nth-1 .table.d-nth-1 .t_cell {width: 171.8px;}
+.term.type-2 .table {position: relative; display: table; width: 100%; letter-spacing: -1px; box-sizing: border-box;}
+
+.term.type-2 .table.d-nth-1 .t_cell {height: 50px; font-size: 18px; font-weight: 600; background: #ddd; }
+.term.type-2 .table.d-nth-2 .t_cell {height: 29px; font-size: 14px; line-height: 2em;}
+.term.type-2 .table.d-nth-3 {width: 100%; margin: 0 auto;}
+.term.type-2 .table.d-nth-3 .t_cell {height: 60px; font-size: 20px; font-weight: 800; padding-top: 13px;}
+.term.type-2 .table.d-nth-3 .t_c3 {height:91px; line-height: 60px;}
+.term.type-2 .table.d-nth-3 del {display: block; font-size: 14px; color: #888; font-weight: 400; letter-spacing: 0;}
+.term.type-2 .table.d-nth-4 {line-height: 2em; border-bottom: 1px solid #ccc; font-size: 15px;}
+.term.type-2 .table.d-nth-5 .t_cell {height: 31px; font-weight: 600; line-height: 1.9em;}
+.term.type-2 .table.d-nth-5 span {font-size: 14px; color: #333; font-weight: 400;}
+.term.type-2 .t_cell {/*display: table-cell vertical-align: middle;*/ text-align: center;  /*box-sizing: border-box;*/}
+.term.type-2  .table.d-nth-2 .t_cell,
+.term.type-2  .table.d-nth-3 .t_cell
+{border-bottom: 1px solid #ddd;}
+.term.type-2 .table.d-nth-1 .t_cell, .term.type-2 .table.d-nth-4 .t_cell {border-bottom: none;}
+
+
+/*클릭시*/
+.term.type-2 .t_table li.on {border: 3px solid #ff9000; margin-left: -1px; width: 172.8px;}
+.term.type-2 .t_table li.on.li-nth-1 {width: 172.8px;}
+
+.term.type-2 .t_table li.on .table.d-nth-1 .t_cell {height: 48px; width:172.8; background: #FF9000; color: #fff;}
+.term.type-2 .t_table li.on .table.d-nth-2 {background: #FFF5D2;}
+.term.type-2 .t_table li.on .table.d-nth-3,
+.term.type-2 .t_table li.on .table.d-nth-5 {color: #f52700;}
+.term.type-2 .t_table li.on .table.d-nth-4 {font-weight: 600;}
+.term.type-2 .t_table li.on .table.d-nth-1 .t_cell {width: 166.8px;}
+
 /*예치금이란?*/
 .ps, .ps2 {font-size: 15px; letter-spacing: -1px; color: #444;}
 .ps {margin-top: 20px;}
@@ -128,6 +168,39 @@ input[type="checkbox"].o_check + span.on img { display: block;
 	position: relative; top: -102px; left: -2px; width: 20px; 
 }
 
+/*옵션 추가 선택 영역*/
+.option.type-2 > h3 span {font-size: 15px; font-weight: 400; margin-left: 16px;}
+.option.type-2 ul li {display: table; position: relative; float:left; width: 332px; height: 55px; vertical-align: middle; border: 1px solid #ccc; color: #222; letter-spacing: -1px; cursor: pointer;}
+.option.type-2 ul li:first-child + li, .option.type-2 ul li:first-child + li + li + li {border-left: none;}
+.option.type-2 ul li:first-child + li + li, .option.type-2 ul li:first-child + li + li + li, 
+.option.type-2 ul li.l5 {border-top: none; cursor: default;}
+.option.type-2 ul li p {position: relative; display: table-cell; text-align: center; vertical-align: middle; color: #333;}
+.option.type-2 ul li p:first-child {width: 48px;}
+.option.type-2 ul li p:first-child + p {font-size: 15px; width: 185px; text-align: left; }
+.option.type-2 ul li p:first-child + p span {display: block; font-size: 14px; text-align: left;}
+.option.type-2 ul li p:first-child + p + p span {color: #f52700; margin-left: 3px;}
+.option.type-2 ul li p:first-child + p + p:before {content: ""; position: absolute; top: 3px; left: 0; display: block; width: 1px; height: 50px; border-left: 1px dashed #999; }
+/* .option.type-2 ul li p.empty {width: 0;}
+.option.type-2 ul li p.empty + p {width: 233px; padding-left: 20px;} */
+/*클릭시*/
+.option.type-2 ul li.on {border:1px solid #ff9000; background: #FFF5D2;}
+.option.type-2 ul li:first-child + li.on, .option.type-2 ul li:first-child + li + li + li.on {margin-left: -1px; width: 333px; border:1px solid #ff9000;}
+.option.type-2 ul li:first-child + li + li.on, .option.type-2 ul li:first-child + li + li + li.on, .option.type-2 ul li.l5.on {margin-top: -1px; height: 56px; border:1px solid #ff9000;}
+/* 클릭효과 없애기 */
+.option.type-2 ul li.l5.on, .option.type-2 ul li:first-child + li + li +li.on {border:1px solid #ccc; background: #fff;}
+.option.type-2 ul li.l5.on {border-top-color: #ff9000;}
+.option.type-2 ul li:first-child + li + li +li.on {border-left-color: #ff9000; border-top-color: #ff9000;}
+
+.option.type-2 p {font-size: 13px; margin-top: 3px;}
+
+/* 옵션추가선택 */
+.table_new{width:664px;height:150px; border-top:1px solid #ccc; border-left:1px solid #ccc;}
+.table_new td{text-align:center; border-right:1px solid #ccc; border-bottom:1px solid #ccc;}
+.wr_td{width:260px;font-size:16px;font-weight:600;text-align:center;background:#FFF5D2;}
+.wr_td > span{display:inline-block;font-size:14px;margin-left:30px;font-weight:normal;}
+.wr_td > span.red_txt{font-size:16px;color:red;font-weight:600;padding-top:3px;}
+.wr_td02{background:#f6f6f6;}
+
 /*결제수단 선택*/
 .way #tab {z-index: 1;}
 .way #tab li {z-index:1; position: relative; width: 100%; height: 44px; border: 1px solid #ddd; border-left: none; text-align: left; cursor: pointer; padding-left: 10px;}
@@ -153,7 +226,7 @@ input[type="radio"].co_check + span.on {
 .way .t_contents li.on {display: block; border-color: #ff9000; background: #FFF5D2;}
 
 /* 이용약관 4가지 */
-#contents .terms {padding: 15px 0 15px; border-bottom: 1px dashed #ddd; }
+#contents .terms, .contents .terms {padding: 0px 0 15px; border-bottom: 1px dashed #ddd; }
 .terms ul li {float: left; width: 50%; padding-left: 38px;}
 .terms li a {font-size: 15px;}
 .terms li a:hover {text-decoration: underline;}
@@ -172,8 +245,8 @@ input[type="checkbox"].ts_check + span.on img { display: block;
 }
 
 /*카드 무이자 할부 혜택 영역*/
-#contents .card h3 {font-size: 14px; padding: 25px 0 8px;}
-.card {letter-spacing: 0; margin-top: 30px;}
+#contents .card h3, .contents .card h3 {font-size: 14px;}
+.contents .card {letter-spacing: 0; margin-bottom: 30px;}
 .card h3 {font-weight: 600; font-size: 15px; padding-bottom: 5px;}
 .card ul {position: relative; width: 100%;}
 .card li {float: left; border: 1px solid #dedede; width: 332px;}
@@ -200,7 +273,7 @@ input[type="checkbox"].ts_check + span.on img { display: block;
 .card > p {font-size: 12px; line-height: 1.5em; color: #222;}
 
 /*결제하실 금액*/
-.price {z-index:2; position:absolute; width: 290px; right: 50%; margin-right: -490px; /* top: 203px; */ top: 269px; letter-spacing: -1px;}
+.price {z-index:2; position:absolute; width: 290px; right: 50%; margin-right: -490px; /* top: 203px; */ /*top: 269px;*/ top: 48px; letter-spacing: -1px;}
 .price.on {margin-top: 103px; transition: all 2s;}
 .price.m_on {margin-top: 242;}
 /* .price {z-index: 2; position: absolute; width: 290px; right: 50%; margin-right: -490px; top: 0; margin-top: 258px; letter-spacing: -1px; background: #fff;} */
@@ -278,14 +351,14 @@ input[type="checkbox"]#agree + span.on img { display: block;
 #panel > p {padding: 6px 10px;}
 #panel > p label {font-size: 16px; width: auto;}
 #panel > p label:before {position: relative; top: 2px; margin-right: 5px;}
-#panel .txtara {display: none; position: relative; top: -1px; height: 64px; resize: none; text-align: left; padding: 5px 2px; border: 1px solid #dedede; overflow-y: scroll; overflow-x: hidden; border-bottom-left-radius: 6px; border-bottom-right-radius: 6px;}
+#panel .txtara {display: none; position: relative; top: -1px; height: 135px; resize: none; text-align: left; padding: 5px 2px; border: 1px solid #dedede; overflow-y: scroll; overflow-x: hidden; border-bottom-left-radius: 6px; border-bottom-right-radius: 6px; background: #fff;}
 #panel .txtara li {padding: 0; font-size: 14px; font-weight: 400; line-height: 1.3em; text-indent: 14px;}
 #panel .txtara .idt {text-indent: 0;}
 
 
 
 /*클릭시*/
-
+/*
 input[type="radio"].t_radio + span + label {position: relative; cursor: pointer; top: -6px; margin-right: 30px; line-height: 1em;}
 input[type="radio"].t_radio + span + label { line-height: 1em;}
 input[type="radio"].t_radio + span { display: inline-block; cursor: pointer; margin-right: 8px; position: relative; width: 30px; 
@@ -295,10 +368,12 @@ input[type="radio"].t_radio + span { display: inline-block; cursor: pointer; mar
 input[type="radio"].t_radio + span.on {
   background: url("http://img.onbiz.co.kr/onb_picto.png") no-repeat center -118px;
 }
+*/
+
 
 /* main영역*/
 #main{width:980px;height:100%;overflow:hidden;}
-.top_application{width:950px;height:150px;padding-top:10px;margin-bottom:15px;background:#f5f5f5;border:1px solid #ddd;}
+.top_application{/*width:950px;*/ height:150px;padding-top:10px;margin-bottom:15px;background:#f5f5f5;border:1px solid #ddd;}
 .top_application > p.chec_p{width:950px;text-indent:107px;margin-bottom:6px;}
 .top_application > ul {width:898px;height:69px;margin:0 auto;padding-top:25px;}
 .top_application > ul > li{float:left;height:69px;}
@@ -319,3 +394,33 @@ input[type="radio"].t_radio + span.on {
 .nBtnBox a.sign_Btn{background:#ff9000;}
 .nBtnBox a.upload_Btn{background:#ffb81e;}
 .nBtnBox a.next_Brn{background:#535353;margin-left:none;}
+
+/* 자주하는 질문 */
+.faq_btn {
+	width: 980px;
+	height: 45px;
+	margin: 25px auto 0;
+	text-align: center;
+	border: 1px solid #ddd;
+	background: #FBF8F3;
+	font-size: 17px;
+	color: #333;
+	font-weight: 600;
+	position: relative;
+	cursor: pointer;
+}
+
+.faq_btn p {
+	display: inline-block;
+	height: 45px;
+	line-height: 45px;
+	margin-right: 3px;
+}
+
+.faq_btn span {
+	display: inline-block;
+	font-size: 10px;
+	font-weight: 800;
+	position: absolute;
+	top: 17px;
+}

@@ -2,7 +2,7 @@
 
 /* 페이지 열릴 시 팝업 */
 .orderPop {position: absolute; z-index: 100; background: #fff; width: 96%; top: 150px; left: 50%; margin-left: -48%; border: 4px solid #d8d8d8; line-height: 1.5; padding: 10px; color: #3e3e3e;}
-.orderPop .d-top h2 {position: relative; font-size: 18px; text-align: center; margin-top: 0; color: #3e3e3e; font-family: "Noto Sans KR", sans-serif;}
+.orderPop .d-top h2 {position: relative; font-size: 17px; text-align: center; margin-top: 0; color: #3e3e3e; font-family: "Noto Sans KR", sans-serif;}
 .orderPop .d-top h2:before {content: ""; background: #fdf997; width: 170px; height: 10px; position: absolute; left: 50%; margin-left: -85px; bottom: -2px; z-index: -1;}
 .orderPop .h-str {position: relative; font-size: 15px; font-family: "Noto Sans KR", sans-serif; padding-left: 16px; margin: 12px 0 6px; display: block; line-height: 1.3;}
 .orderPop .h-str:before {content: "※"; font-weight: 700; position: absolute; left: 0; top: 0;}
@@ -99,40 +99,40 @@ input[type="checkbox"].equal + span.on img {
 	position: relative; top: -82px; left: -2px; width: 16px;
 }
 
-#container {position: relative; padding: 15px; margin: 0 5px; background: #f9f9f9; border: 1px solid #ddd;}
-#container h3 {position: relative; text-align: center; font-size: 17px; letter-spacing: -1px;}
-#container ul {position: relative; width: 100%; left: 0; margin: 0 auto; margin-top: 10px; }
-#container li {margin-top: 9px; color: #888;}
-#container li:first-child {margin-top: 0px;}
+.container {position: relative; padding: 15px; margin: 0 5px; background: #f9f9f9; border: 1px solid #ddd;}
+.container h3 {position: relative; text-align: center; font-size: 17px; letter-spacing: -1px;}
+.container ul {position: relative; width: 100%; left: 0; margin: 0 auto; margin-top: 10px; }
+.container li {margin-top: 9px; color: #888;}
+.container li:first-child {margin-top: 0px;}
 
-#container li > label {display: inline-block; font-size: 14px; width: 30%; text-indent: 0px; color: #333; margin-right: -5px;}
-#container li > input {width: 70%; font-size: 14px; height: 30px; border: 1px solid #a9a9a9; text-indent: 6px;}
-#container li > input:focus {color: #333; border: 2px solid #ff9000; outline: none;}
+.container li > label {display: inline-block; font-size: 14px; width: 30%; text-indent: 0px; color: #333; margin-right: -5px;}
+.container li > input {width: 70%; font-size: 14px; height: 30px; border: 1px solid #a9a9a9; text-indent: 6px;}
+.container li > input:focus {color: #333; border: 2px solid #ff9000; outline: none;}
 
-#container li > label, #container .refund label {font-size: 14px; width: 30%; margin-right: -5px; text-indent: 0;}
-#container li > input, #container .m_emt input, #container .refund input, #container .refund .selectBox,
-#container .refund input, #container .refund .selectBox
+.container li > label, .container .refund label {font-size: 14px; width: 30%; margin-right: -5px; text-indent: 0;}
+.container li > input, .container .m_emt input, .container .refund input, .container .refund .selectBox,
+.container .refund input, .container .refund .selectBox
 {width: 69%; font-size: 14px;}
 
-#container .m_jm span, #container .l_snum span {display: inline-block; width: 3%; text-align: center; font-weight: 800;}
-#container .mng_jm {width: 32%;}
-#container .m_jm {width: 100%; font-size: 14px;}
-#container .m_jm #mng_jm + span + input {width: 10%; margin-right: 0; text-indent: 0px; text-align: center;}
-#container .plan_txt {width: 69%; resize: none;}
-#container .mTxt {padding-left: 30%; font-size: 13px; letter-spacing: -1px; margin: 5px 0 12px;}
-#container .mTxt .p-1 {margin:10px 0px 2px 0px;line-height:20px;}
-#container .mTxt .p-1 .a-btn {background: #f93500; display: inline-block; color: #fff; font-size: 12px; padding: 1px 7px;}
-#container .mTxt .planExPop {position: absolute; left: 50%; margin-left: -48.5%; top: 50%; margin-top: -150px; width: 97%; background: #fff; padding-bottom: 5px; font-size: 12px; z-index: 1; word-break: keep-all; display: none;}
-#container .mTxt .planExPop .p-tit {margin-bottom: 5px; background: #999; padding: 6px 8px; color: #fff; letter-spacing: 0;}
-#container .mTxt .planExPop .p-tit .a-x {top: 4px; right: 2px;}
-#container .mTxt .planExPop .p-tit .a-x:before, #container .mTxt .planExPop .p-tit .a-x:after {background: #fff; top: 8px; width: 16px;}
-#container .mTxt .planExPop .p-txt {line-height: 18px; padding: 0 8px;}
-#container .mTxt .planExPop .p-txt.dot {padding-left: 18px;}
-#container .mTxt .planExPop .p-txt.dot .s-dot {position: absolute; left: 5px;}
+.container .m_jm span, .container .l_snum span {display: inline-block; width: 3%; text-align: center; font-weight: 800;}
+.container .mng_jm {width: 32%;}
+.container .m_jm {width: 100%; font-size: 14px;}
+.container .m_jm #mng_jm + span + input {width: 10%; margin-right: 0; text-indent: 0px; text-align: center;}
+.container .plan_txt {width: 69%; resize: none;}
+.container .mTxt {padding-left: 30%; font-size: 13px; letter-spacing: -1px; margin: 5px 0 12px;}
+.container .mTxt .p-1 {margin:10px 0px 2px 0px;line-height:20px;}
+.container .mTxt .p-1 .a-btn {background: #f93500; display: inline-block; color: #fff; font-size: 12px; padding: 1px 7px;}
+.container .mTxt .planExPop {position: absolute; left: 50%; margin-left: -48.5%; top: 50%; margin-top: -150px; width: 97%; background: #fff; padding-bottom: 5px; font-size: 12px; z-index: 1; word-break: keep-all; display: none;}
+.container .mTxt .planExPop .p-tit {margin-bottom: 5px; background: #999; padding: 6px 8px; color: #fff; letter-spacing: 0;}
+.container .mTxt .planExPop .p-tit .a-x {top: 4px; right: 2px;}
+.container .mTxt .planExPop .p-tit .a-x:before, .container .mTxt .planExPop .p-tit .a-x:after {background: #fff; top: 8px; width: 16px;}
+.container .mTxt .planExPop .p-txt {line-height: 18px; padding: 0 8px;}
+.container .mTxt .planExPop .p-txt.dot {padding-left: 18px;}
+.container .mTxt .planExPop .p-txt.dot .s-dot {position: absolute; left: 5px;}
 
 
-#container .m_adr input[type="text"] {width: 40%; margin-right: -7px;}
-#container .m_adr a {display: inline-block; width: 29%; height: 30px; vertical-align: middle; line-height: 2.2em; border: 1px solid #a9a9a9; font-size: 13px; color: #222; text-align: center;
+.container .m_adr input[type="text"] {width: 40%; margin-right: -7px;}
+.container .m_adr a {display: inline-block; width: 29%; height: 30px; vertical-align: middle; line-height: 2.2em; border: 1px solid #a9a9a9; font-size: 13px; color: #222; text-align: center;
 	background: #ffffff;
 	background: -moz-linear-gradient(top,    #ffffff 0%, #efefef 100%);
 	background: -webkit-linear-gradient(top,    #ffffff 0%,#efefef 100%);
@@ -140,59 +140,61 @@ input[type="checkbox"].equal + span.on img {
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#efefef',GradientType=0 );
 }
 
-#container .l_snum #les_snum {width: 20%;}
-#container .l_snum #les_snum + span + input {width: 13%; text-indent: 0; text-align: center;}
-#container .l_snum #les_snum + span + input + span + input {width: 27%;}
+.container .l_snum #les_snum {width: 20%;}
+.container .l_snum #les_snum + span + input {width: 13%; text-indent: 0; text-align: center;}
+.container .l_snum #les_snum + span + input + span + input {width: 27%;}
 
-#container > section > p {position: relative; width: 100%; left: 0; margin-left: 0; top: 0; margin-top: 15px; text-align: right;}
+.container > section > p {position: relative; width: 100%; left: 0; margin-left: 0; top: 0; margin-top: 15px; text-align: right;}
 
-#container section.lessee {display: none;}
+.container section.lessee {display: none;}
 
-#container .refund {position: relative; width: 100%; height: auto; left: -1px; margin-left: 0; top: 0; margin-top: 25px; padding: 15px 15px 20px 15px; border: 1px solid #ddd; background: #fff;}
-#container .refund h3 {text-align: center; margin-top: 5px;}
-#container .refund p {letter-spacing: -1px;}
-#container .refund h3 + p {font-size: 14px; text-align: center; margin-top: 5px; color: #4a4a4a;}
-#container .refund ul {width: 100%; left: 0; margin-top: 20px;}
-#container .refund label {text-align: left;}
-#container .refund .selectBox {display: inline-block;}
-#container .refund .selectBox input {width: 100%;}
-#container .refund .selectBox ul {position: absolute; margin-top: 0;}
-#container .refund .selectBox ul li {color: #222;}
-#container .refund > p {font-size: 13px; line-height: 1.4em; color: #4a4a4a;}
-#container .refund > ul + p {margin-top: 15px;}
-#container .refund > ul + p + p {margin-top: 5px;}
+.container .refund {position: relative; width: 100%; height: auto; left: -1px; margin-left: 0; top: 0; margin-top: 25px; padding: 15px 15px 20px 15px; border: 1px solid #ddd; background: #fff;}
+.container .refund h3 {text-align: center; margin-top: 5px;}
+.container .refund p {letter-spacing: -1px;}
+.container .refund h3 + p {font-size: 14px; text-align: center; margin-top: 5px; color: #4a4a4a;}
+.container .refund ul {width: 100%; left: 0; margin-top: 20px;}
+.container .refund label {text-align: left;}
+.container .refund .selectBox {display: inline-block;}
+.container .refund .selectBox input {width: 100%;}
+.container .refund .selectBox ul {position: absolute; margin-top: 0;}
+.container .refund .selectBox ul li {color: #222;}
+.container .refund > p {font-size: 13px; line-height: 1.4em; color: #4a4a4a;}
+.container .refund > ul + p {margin-top: 15px;}
+.container .refund > ul + p + p {margin-top: 5px;}
 
 
 /*container2*/
 div.mt {margin: 15px auto;}
-#container2 .select_wrap {position: relative; left: 0; font-size: 0; margin-top: 15px;}
-#container2 .select_wrap label {display: inline-block; width: 30%; text-align: left; font-size: 15px; vertical-align: middle;}
-#container2 .select_wrap label > span {display: none;}
-#container2 .select_wrap .selectBox {display: inline-block; width: 70%;}
-#container2 {position: relative; padding: 15px; margin: 0 0px 0px; background: #f9f9f9; border: 1px solid #ddd;}
-#container2 h3 {position: relative; text-align: center; font-size: 17px; letter-spacing: -1px;}
-#container2 ul {position: relative; width: 100%; left: 0; margin: 0 auto; margin-top: 10px; }
-#container2 li {margin-top: 9px; color: #888;}
-#container2 li:first-child {margin-top: 0px;}
+#container2 {}
+/*
+.container2 .select_wrap {position: relative; left: 0; font-size: 0; margin-top: 15px;}
+.container2 .select_wrap label {display: inline-block; width: 30%; text-align: left; font-size: 15px; vertical-align: middle;}
+.container2 .select_wrap label > span {display: none;}
+.container2 .select_wrap .selectBox {display: inline-block; width: 70%;}
+.container2 {position: relative; padding: 15px; margin: 0 0px 0px; background: #f9f9f9; border: 1px solid #ddd;}
+.container2 h3 {position: relative; text-align: center; font-size: 17px; letter-spacing: -1px;}
+.container2 ul {position: relative; width: 100%; left: 0; margin: 0 auto; margin-top: 10px; }
+.container2 li {margin-top: 9px; color: #888;}
+.container2 li:first-child {margin-top: 0px;}
 
-#container2 li > label {display: inline-block; font-size: 14px; width: 30%; text-indent: 0px; color: #333; margin-right: -5px;}
-#container2 li > input {width: 70%; font-size: 14px; height: 30px; border: 1px solid #a9a9a9; text-indent: 15px;}
-#container2 li > input:focus {color: #333; border: 2px solid #ff9000; outline: none;}
+.container2 li > label {display: inline-block; font-size: 14px; width: 30%; text-indent: 0px; color: #333; margin-right: -5px;}
+.container2 li > input {width: 70%; font-size: 14px; height: 30px; border: 1px solid #a9a9a9; text-indent: 15px;}
+.container2 li > input:focus {color: #333; border: 2px solid #ff9000; outline: none;}
 
-#container2 li > label, #container2 .refund label {font-size: 14px; width: 30%; margin-right: -5px; text-indent: 0;}
-#container2 li > input, #container2 .m_emt input, #container2 .refund input, #container2 .refund .selectBox,
-#container2 .refund input, #container2 .refund .selectBox
+.container2 li > label, .container2 .refund label {font-size: 14px; width: 30%; margin-right: -5px; text-indent: 0;}
+.container2 li > input, .container2 .m_emt input, .container2 .refund input, .container2 .refund .selectBox,
+.container2 .refund input, .container2 .refund .selectBox
 {width: 69%; font-size: 14px;}
 
-#container2 .m_jm span, #container2 .l_snum span {display: inline-block; width: 3%; text-align: center; font-weight: 800;}
-#container2 .mng_jm {width: 35%;}
-#container2 .m_jm {width: 100%; font-size: 14px;}
-#container2 .m_jm #cor_jm + span + input {width: 10%; margin-right: 0; text-indent: 0px; text-align: center;}
+.container2 .m_jm span, .container2 .l_snum span {display: inline-block; width: 3%; text-align: center; font-weight: 800;}
+.container2 .mng_jm {width: 35%;}
+.container2 .m_jm {width: 100%; font-size: 14px;}
+.container2 .m_jm #cor_jm + span + input {width: 10%; margin-right: 0; text-indent: 0px; text-align: center;}
 
-#container2 .mTxt {padding-left: 30%; font-size: 13px; letter-spacing: -1px; margin: 5px 0 12px;}
+.container2 .mTxt {padding-left: 30%; font-size: 13px; letter-spacing: -1px; margin: 5px 0 12px;}
 
-#container2 .m_adr input[type="text"] {width: 40%; margin-right: -7px;}
-#container2 .m_adr a {display: inline-block; width: 29%; height: 30px; vertical-align: middle; line-height: 2.2em; border: 1px solid #a9a9a9; font-size: 13px; color: #222; text-align: center;
+.container2 .m_adr input[type="text"] {width: 40%; margin-right: -7px;}
+.container2 .m_adr a {display: inline-block; width: 29%; height: 30px; vertical-align: middle; line-height: 2.2em; border: 1px solid #a9a9a9; font-size: 13px; color: #222; text-align: center;
 	background: #ffffff;
 	background: -moz-linear-gradient(top,    #ffffff 0%, #efefef 100%);
 	background: -webkit-linear-gradient(top,    #ffffff 0%,#efefef 100%);
@@ -200,23 +202,24 @@ div.mt {margin: 15px auto;}
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#efefef',GradientType=0 );
 }
 
-#container2 > section > p {position: relative; width: 100%; left: 0; margin-left: 0; top: 0; margin-top: 15px; text-align: right;}
+.container2 > section > p {position: relative; width: 100%; left: 0; margin-left: 0; top: 0; margin-top: 15px; text-align: right;}
 
-#container2 section.lessee {display: none;}
+.container2 section.lessee {display: none;}
 
-#container2 .refund {position: relative; width: 100%; height: auto; left: -1px; margin-left: 0; top: 0; margin-top: 25px; padding: 15px 15px 20px 15px; border: 1px solid #ddd; background: #fff;}
-#container2 .refund h3 {text-align: center; margin-top: 5px;}
-#container2 .refund p {letter-spacing: -1px;}
-#container2 .refund h3 + p {font-size: 14px; text-align: center; margin-top: 5px; color: #4a4a4a;}
-#container2 .refund ul {width: 100%; left: 0; margin-top: 20px;}
-#container2 .refund label {text-align: left;}
-#container2 .refund .selectBox {display: inline-block;}
-#container2 .refund .selectBox input {width: 100%;}
-#container2 .refund .selectBox ul {position: absolute; margin-top: 0;}
-#container2 .refund .selectBox ul li {color: #222;}
-#container2 .refund > p {font-size: 13px; line-height: 1.4em; color: #4a4a4a;}
-#container2 .refund > ul + p {margin-top: 15px;}
-#container2 .refund > ul + p + p {margin-top: 5px;}
+.container2 .refund {position: relative; width: 100%; height: auto; left: -1px; margin-left: 0; top: 0; margin-top: 25px; padding: 15px 15px 20px 15px; border: 1px solid #ddd; background: #fff;}
+.container2 .refund h3 {text-align: center; margin-top: 5px;}
+.container2 .refund p {letter-spacing: -1px;}
+.container2 .refund h3 + p {font-size: 14px; text-align: center; margin-top: 5px; color: #4a4a4a;}
+.container2 .refund ul {width: 100%; left: 0; margin-top: 20px;}
+.container2 .refund label {text-align: left;}
+.container2 .refund .selectBox {display: inline-block;}
+.container2 .refund .selectBox input {width: 100%;}
+.container2 .refund .selectBox ul {position: absolute; margin-top: 0;}
+.container2 .refund .selectBox ul li {color: #222;}
+.container2 .refund > p {font-size: 13px; line-height: 1.4em; color: #4a4a4a;}
+.container2 .refund > ul + p {margin-top: 15px;}
+.container2 .refund > ul + p + p {margin-top: 5px;}
+*/
 
 
 
@@ -251,10 +254,10 @@ div.mt {margin: 15px auto;}
     .category > ul li h3, .category > ul li.on h3 {font-size: 15px;}
     /* input[type="radio"].cate_inp + span + label {top: -3px;} */
     .st_wrap p {text-align: left;}
-    #container2 li > label, #container2 .refund label {font-size: 12px;}
-    #container2 li > input {font-size: 13px;}
-    /* #container2 .mng_jm {width: 27%;} */
-    #container2 .m_adr a {font-size: 12px; line-height: 3em;}
+    .container2 li > label, .container2 .refund label {font-size: 12px;}
+    .container2 li > input {font-size: 13px;}
+    /* .container2 .mng_jm {width: 27%;} */
+    .container2 .m_adr a {font-size: 12px; line-height: 3em;}
 
 }
 

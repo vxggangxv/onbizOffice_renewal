@@ -402,8 +402,8 @@ border:17px solid transparent;  border-left-color: #e0e0e0; border-left-width: 8
 
 .btn_wrap {padding: 0 5px;}
 .nBtn {position: relative; display: block; margin: 15px auto; width: 100%; height: 56px; background: #ff9000; color: #fff; font-size: 20px; font-weight: 700; border-radius: 4px; text-align: center; line-height: 3em;}
-.nBtn i {position: absolute; left: 50%; margin-left: 100px; top: 50%; margin-top: -9px;    display: inline-block; overflow: hidden; width: 15px; height: 22px;}
-.nBtn i img {position: relative; width: 74px; top: -30px; left: 0px;}
+.nBtn i {position: absolute; left: 50%; margin-left: 100px; top: 50%; margin-top: -7px;    display: inline-block; overflow: hidden; width: 15px; height: 22px;}
+.nBtn i img {position: relative; width: 74px; top: -32px; left: 0px;}
 .b2 {background: #444;}
 /* select 덮어 쓰기 */
 .selectBox i.calandar_icon {position: absolute; display: inline-block; width: 20px; height: 20px; right: 10px; top: 5px; cursor: pointer; overflow: hidden; font-size: 0;}

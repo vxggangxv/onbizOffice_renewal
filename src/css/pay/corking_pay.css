@@ -36,7 +36,7 @@
 .guide_txt01 span{font-size:28px;font-weight:800;}
 .guide_txt02{text-align:center;font-size:20px;color:#434343;}
 .guide_txt02 > span {color:#ff8519;}
-.faq_btn{width:980px;height:45px;margin-top:25px;text-align:center;border:1px solid #ddd;background:#FBF8F3;font-size:17px;color:#333;font-weight:600;position:relative;cursor:pointer;}
+.faq_btn{width:980px;height:45px;margin:25px auto 0;text-align:center;border:1px solid #ddd;background:#FBF8F3;font-size:17px;color:#333;font-weight:600;position:relative;cursor:pointer;}
 .faq_btn p{display:inline-block;height:45px;line-height:45px;margin-right:3px;}
 .faq_btn span{display:inline-block;font-size:10px;font-weight:800;position:absolute;top:17px;}
 
@@ -263,7 +263,7 @@ input[type="checkbox"].ts_check + span.on img { display: block;
 .card > p {font-size: 12px; line-height: 1.5em; color: #222;}
 
 /*결제하실 금액*/
-.price {z-index:2; position:absolute; width: 290px; right: 50%; margin-right: -500px; /* top: 325px; */ top: 294px; letter-spacing: -1px;}
+.price {z-index:2; position:absolute; width: 290px; right: 50%; margin-right: -500px; /* top: 325px; */ top: 294px; letter-spacing: -1px; background: #fff;}
 .price.on {margin-top: 103px; transition: all 2s;}
 .price.m_on {margin-top: 242;}
 /* .price {z-index: 2; position: absolute; width: 290px; right: 50%; margin-right: -490px; top: 0; margin-top: 258px; letter-spacing: -1px; background: #fff;} */
@@ -271,7 +271,7 @@ input[type="checkbox"].ts_check + span.on img { display: block;
 .price {left: 690px; margin-left: 0;}
 }
 .container {border: 1px solid #000; position:relative; /* top: 58px; */}
-.container h3 { font-size: 18px; padding: 12px 12px 12px;  border-bottom: 1px solid #b3b3b3; font-weight: 600; background: #fff;}
+.container h3 { font-size: 18px; padding: 12px 12px 12px;  border-bottom: 1px solid #b3b3b3; font-weight: 600;}
 
 .container > ul {border-bottom: 1px solid #b3b3b3; /*padding: 6px 0;*/}
 .container > ul li:before, .container > ul li:after {content: ""; display: block;}
@@ -356,21 +356,21 @@ input[type="checkbox"]#agree + span.on img { display: block;
 
 /* 171016 서명하기추가 */
 
-    .top_application {width:950px; height:160px; margin:0 auto; background:#f5f5f5; border:1px solid #ddd;}
-    .top_application > ul {width:898px; margin:40px 40px;}
-    .top_application > ul > li {float:left; height:69px;}
-    .top_application > ul > li.txt {width:200px; font-size:23px; font-weight:600; color:#333; line-height:28px;}
-    .top_application > ul > li ul {margin-left:-20px;}
-    .top_application > ul > li ul li {width:380px; height:30px; margin-bottom:5px;}
-    .top_application > ul > li ul li > label {display:inline-block; width:100px; height:17px; font-size:15px;}
-    .top_application > ul > li ul li > input{width:270px; height:30px; border:1px solid #757575; outline:none; -webkit-appearance:none; text-indent:10px;}
-    .top_application > ul > li.signBtn a{display:inline-block; width:200px; height:69px; line-height:69px; margin-left:10px; text-align:center; background:#ff9000;color:#fff; font-size:18px; font-weight:600;}
-    .top_application > span{display:inline-block; clear:both; width:898px; font-size:14px; font-weight:600; text-align: right; margin:15px 15px;}
-    .nBtnBox{width:980px; text-align:center; margin-top:15px;}
-    .nBtnBox a {display:inline-block; width:268px; margin:0 10px; height:50px; line-height:50px; font-size:18px; font-weight:600; olor:#fff;}
-    .nBtnBox a.sign_Btn {background:#ff9000;}
-    .nBtnBox a.upload_Btn {background:#ffb81e;}
-    .nBtnBox a.next_Brn {background:#535353;margin-left:none;}
+.top_application {/*width:950px;*/ height:160px; margin:0 auto; background:#f5f5f5; border:1px solid #ddd;}
+.top_application > ul {width:898px; margin:40px 40px;}
+.top_application > ul > li {float:left; height:69px;}
+.top_application > ul > li.txt {width:200px; font-size:23px; font-weight:600; color:#333; line-height:28px;}
+.top_application > ul > li ul {margin-left:-20px;}
+.top_application > ul > li ul li {width:380px; height:30px; margin-bottom:5px;}
+.top_application > ul > li ul li > label {display:inline-block; width:100px; height:17px; font-size:15px;}
+.top_application > ul > li ul li > input{width:270px; height:30px; border:1px solid #757575; outline:none; -webkit-appearance:none; text-indent:10px;}
+.top_application > ul > li.signBtn a{display:inline-block; width:200px; height:69px; line-height:69px; margin-left:10px; text-align:center; background:#ff9000;color:#fff; font-size:18px; font-weight:600;}
+.top_application > span{display:inline-block; clear:both; width:898px; font-size:14px; font-weight:600; text-align: right; margin:15px 15px;}
+.nBtnBox{width:980px; text-align:center; margin-top:15px;}
+.nBtnBox a {display:inline-block; width:268px; margin:0 10px; height:50px; line-height:50px; font-size:18px; font-weight:600; olor:#fff;}
+.nBtnBox a.sign_Btn {background:#ff9000;}
+.nBtnBox a.upload_Btn {background:#ffb81e;}
+.nBtnBox a.next_Brn {background:#535353;margin-left:none;}
 
 /* 171016 결제하실 금액 수정 */
 
