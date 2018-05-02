@@ -55,16 +55,22 @@ justify-content: center;
 align-items: center; */
 }
 /* 메인이미지 */
-.top_box { position:absolute; top:285px; left:50%; margin-left:-145px; z-index:9; text-align:center; letter-spacing: -1px; font-size:15px;}
-.box_1 {width:90px; height:104px; float:left; background-color: rgba(255, 137, 33, 0.8);}
-.box_1 p { color:#FFF; margin-top:14px; }
-.box_1 p span{ color:#FFF; font-size:12px;}
-.box_2 {width:90px; height:104px; margin-left: 10px; float:left; background-color: rgba(51, 51, 51, 0.8);}
-.box_2 p { color:#FFF; margin-top:14px;}
-.box_2 p span{ color:#FFF; font-size:12px;}
-.box_3 {width:90px; height:104px; margin-left: 10px; float:left; background-color: rgba(196, 196, 196, 0.9);}
-.box_3 p { color:#FFF; margin-top:14px;}
-.box_3 p span{ color:#FFF; font-size:12px;}
+.top_box { position:absolute; top:270px; left:50%; margin-left:-145px; z-index:9; text-align:center; letter-spacing: -1px; font-size:15px;}
+.top_box > [class*=box_] {width: 90px; height: 110px; float: left; margin-left: 10px;}
+.top_box > [class*=box_] > p {margin-top: 8px; color: #fff;}
+.top_box > [class*=box_] > p > span {font-size: 12px; color: #fff;}
+.top_box > [class*=box_].box_1 {background-color: rgba(255, 137, 33, 0.8); margin-left: 0;}
+.box_2 {background-color: rgba(51, 51, 51, 0.8);}
+.box_3 {background-color: rgba(196, 196, 196, 0.9);}
+/*.box_1 {width:90px; height:104px; float:left; background-color: rgba(255, 137, 33, 0.8);}*/
+/*.box_1 p { color:#FFF; margin-top:14px; }*/
+/*.box_1 p span{ color:#FFF; font-size:12px;}*/
+/*.box_2 {width:90px; height:104px; margin-left: 10px; float:left; background-color: rgba(51, 51, 51, 0.8);}*/
+/*.box_2 p { color:#FFF; margin-top:14px;}*/
+/*.box_2 p span{ color:#FFF; font-size:12px;}*/
+/*.box_3 {width:90px; height:104px; margin-left: 10px; float:left; background-color: rgba(196, 196, 196, 0.9);}*/
+/*.box_3 p { color:#FFF; margin-top:14px;}*/
+/*.box_3 p span{ color:#FFF; font-size:12px;}*/
 .top_box p span:nth-child(2) { font-size: 14px; }
 .link_btn {display: block; color: #fff; border: 1px solid #fff; width: 86%; margin: 0 auto; margin-top: 10px; font-size: 12px; line-height: 1.7em;}
 .box_3 .link_btn > span {font-size: 8px; margin-left: 5px;}
@@ -74,7 +80,7 @@ align-items: center; */
 .call {width:100%; height:64px; position:fixed; left: 0; bottom: 0; background-color:#3b3938; z-index:10;}
 .call  img {width: 88px;position: absolute; top: -16px; left: 50%; margin-left: -46px;}
 .call_bt { width:300px; height:40px; padding-top: 4px; background-color:#ff8921; margin:0 auto; margin-top:10px; text-align:center;}
-.bt_title, .bt_title a {font-size:16px; font-weight:bold; color:#fff; letter-spacing: -1px; line-height: 19px; font-family: tahoma; padding-top: 2px;}
+.bt_title, .bt_title a {font-size:15px; font-weight:bold; color:#fff; letter-spacing: -1px; line-height: 17px; font-family: tahoma; /* padding-top: 2px; */}
 .bt_title2 {font-size:12px; color:#ffd5b0; }
 
 /* 컨텐츠 */

@@ -6,7 +6,7 @@
 #main0 h3 {text-align: center;}
 #main0 .mt_box {width: 900px; text-align: center; margin: 0 auto; margin-top: 20px;}
 #main0 .mt_cell {float: left; border-radius: 100px; color: #fff; font-weight: 400; font-size: 16px; line-height: 1.3em; margin-left: -25px; padding: 18px 0px 19px; font-family: "Noto Sans Kr", "NanumGothic", sans-serif;}
-#main0 .mt_cell.nth-1 {width: 174px;}
+#main0 .mt_cell.nth-1 {width: 174px; margin-left: 0;}
 #main0 .mt_cell.nth-2 {width: 164px;}
 #main0 .mt_cell.nth-3 {width: 162px;}
 #main0 .mt_cell.nth-4 {width: 168px;}
@@ -25,6 +25,26 @@
 .guide li:first-child span {content: ""; position: absolute; display: block; top: -5px; width: 30px; height: 30px; background: url("http://img.onbiz.co.kr/onb_picto.png") no-repeat center -180px;}
 .guide li:first-child + li {margin-top: 20px;}
 
+.main0 {position: relative;}
+.main0 [class^='guide_txt'], .main0 [class^='guide_txt'] * {font-family: "Noto Sans KR", "Malgun Gothic", sans-serif; letter-spacing: -1px;}
+.main0 [class^='guide_txt'] {font-size: 20px; color: #434343; text-align: center;}
+.main0 [class^='guide_txt'] .fz-big {display: inline-block; font-size: 28px; font-weight: 700;}
+.main0 [class^='guide_txt'] .s-under {display: inline-block; border-bottom: 2px solid #ff8529; line-height: 1.1;}
+.main0 [class^='guide_txt'] .s-under.cl-2 {border-bottom-color: #434343;}
+.main0 [class^='guide_txt'] .fc-1 {color: #ff8519;}
+.main0 .guide_txt01 {margin-bottom:10px;}
+
+/* 삭제 예정 */
+/*.guide_txt01{text-align:center;font-size:20px;color:#434343;margin-bottom:10px;}
+.guide_txt01 span{font-size:28px;font-weight:800;}
+.guide_txt02{text-align:center;font-size:20px;color:#434343;}
+.guide_txt02 > span {color:#ff8519;}*/
+/* 끝 */
+
+/* 자주하는 질문 */
+.faq_btn {width:980px;height:45px;margin:25px auto 0;text-align:center;border:1px solid #ddd;background:#FBF8F3;font-size:17px;color:#333;font-weight:600;position:relative;cursor:pointer;}
+.faq_btn p{display:inline-block;height:45px;line-height:45px;margin-right:3px;}
+.faq_btn span{display:inline-block;font-size:10px;font-weight:800;position:absolute;top:17px;}
 
 /*메인 영역*/
 #main {border-bottom: 1px solid #ccc; padding: 20px 0px;}
@@ -203,8 +223,8 @@ input[type="checkbox"].o_check + span.on img { display: block;
 
 /*결제수단 선택*/
 .way #tab {z-index: 1;}
-.way #tab li {z-index:1; position: relative; width: 100%; height: 44px; border: 1px solid #ddd; border-left: none; text-align: left; cursor: pointer; padding-left: 10px;}
-.way #tab li p {display: inline; position: relative; top: 5px; font-weight: 400; font-size: 13px;}
+.way #tab li {z-index:1; position: relative; width: 100%; height: 44px; border: 1px solid #ddd; border-left: none; text-align: left; cursor: pointer; padding-left: 5px;}
+.way #tab li p {display: inline; position: relative; top: 5px; font-weight: 400; font-size: 13px; letter-spacing: -0.5px;}
 /*클릭 시*/
 .way #tab li.on {border: 1px solid #ff9000; background: #FFF5D2; font-weight: 600;}
 /*.way #tab li:first-child + div.on, .way #tab li:first-child + div + div.on {width: 222px; margin-left: -1px;}*/
@@ -395,32 +415,3 @@ input[type="radio"].t_radio + span.on {
 .nBtnBox a.upload_Btn{background:#ffb81e;}
 .nBtnBox a.next_Brn{background:#535353;margin-left:none;}
 
-/* 자주하는 질문 */
-.faq_btn {
-	width: 980px;
-	height: 45px;
-	margin: 25px auto 0;
-	text-align: center;
-	border: 1px solid #ddd;
-	background: #FBF8F3;
-	font-size: 17px;
-	color: #333;
-	font-weight: 600;
-	position: relative;
-	cursor: pointer;
-}
-
-.faq_btn p {
-	display: inline-block;
-	height: 45px;
-	line-height: 45px;
-	margin-right: 3px;
-}
-
-.faq_btn span {
-	display: inline-block;
-	font-size: 10px;
-	font-weight: 800;
-	position: absolute;
-	top: 17px;
-}
